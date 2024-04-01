@@ -31,7 +31,7 @@ export default function Locations() {
                 src={location.map}
                 width="350"
                 height="300"
-                style={{ border: 0 }}
+                style={{ border: 0, width: '100%' }}
                 allowFullScreen={false}
                 loading="lazy"
                 title={location.name}
