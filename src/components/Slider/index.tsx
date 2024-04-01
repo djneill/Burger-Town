@@ -22,11 +22,11 @@ export default function CarouselPlugin() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-sm md:max-w-lg lg:max-w-2xl mx-auto my-8 rounded-2xl"
+      className="w-full max-w-sm md:max-w-lg lg:max-w-2xl mx-auto my-8 rounded-2xl "
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent className="-ml-2 md:-ml-4">
+      <CarouselContent className="-ml-2 md:-ml-4 ">
         {sliderData.map((slide) => (
           <CarouselItem key={slide.id} className="sm:pl-0 pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3 md:mx-4">
             <div className="p-1">
@@ -45,8 +45,10 @@ export default function CarouselPlugin() {
         ))
         }
       </CarouselContent >
-      <CarouselPrevious />
-      <CarouselNext />
+      <div className="hidden md:block">
+        <CarouselPrevious />
+        <CarouselNext />
+      </div>
     </Carousel >
   )
 }

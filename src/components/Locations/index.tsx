@@ -35,7 +35,7 @@ export default function Locations() {
                 allowFullScreen={false}
                 loading="lazy"
                 title={location.name}
-                className="rounded-lg mx-auto my-4 border-2"
+                className="rounded-lg mx-auto md:my-4 border-2 sm:w-full"
               ></iframe>
             </Card>
           ))}

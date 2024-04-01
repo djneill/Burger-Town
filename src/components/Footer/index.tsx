@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-20 ">
+      <footer className="relative z-10 bg-white pt-8 dark:bg-gray-dark md:pt-20 lg:pt-20 ">
         <div className="container ">
-          <div className="grid grid-cols-3 gap-8 justify-stretch mx-auto text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-stretch mx-auto text-center">
             <div className="w-full px-4">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
