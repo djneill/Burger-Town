@@ -1,6 +1,5 @@
 import SectionTitle from "../Common/SectionTitle";
 import { Button } from "../ui/button";
-import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
