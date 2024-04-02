@@ -100,7 +100,7 @@ const Header = () => {
                     : "invisible top-[120%] opacity-0"
                     }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12 justify-between">
+                  <ul className="block lg:flex lg:space-x-12 justify-between scroll-smooth">
                     <li>
                       <Link href="/">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Home</p>
