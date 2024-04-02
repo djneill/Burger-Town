@@ -107,17 +107,17 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="#menu">
+                      <Link href="/#menu">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Menu</p>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#locations">
+                      <Link href="/#locations">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Locations</p>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#contact">
+                      <Link href="/#contact">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Contact</p>
                       </Link>
                     </li>
