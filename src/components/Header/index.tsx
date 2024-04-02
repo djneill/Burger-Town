@@ -100,8 +100,35 @@ const Header = () => {
                     : "invisible top-[120%] opacity-0"
                     }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                  <ul className="block lg:flex lg:space-x-12 justify-between">
+                    <li>
+                      <Link href="/">
+                        <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Home</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/#menu">
+                        <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Menu</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/#locations">
+                        <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Locations</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/#contact">
+                        <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Contact</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="https://www.toasttab.com/nadc-burger-1007-east-6th-street/giftcards"
+                        target="_blank">
+                        <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Purchase Gift Cards for Flagship Location</p>
+                      </Link>
+                    </li>
+                    {/* {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
@@ -126,7 +153,7 @@ const Header = () => {
                           </>
                         )}
                       </li>
-                    ))}
+                    ))} */}
                     <Link
                       className="flex py-2 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 text-xl text-[#e1306c]"
                       href={'https://www.instagram.com/nadcburger/'}
