@@ -102,24 +102,24 @@ const Header = () => {
                 >
                   <ul className="block lg:flex lg:space-x-12 justify-between scroll-smooth">
                     <li>
-                      <Link href="/">
+                      <a href="/">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Home</p>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="/#menu">
+                      <a href="/#menu">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Menu</p>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="/#locations">
+                      <a href="/#locations">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Locations</p>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="/#contact">
+                      <a href="/#contact">
                         <p className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6">Contact</p>
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <Link
