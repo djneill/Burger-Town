@@ -10,13 +10,15 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Menu",
-    path: "https://burger-town.netlify.app/#menu",
+    path: "/#menu",
+    scrollId: "menu",
     newTab: false,
   },
   {
     id: 33,
     title: "Locations",
-    path: "https://burger-town.netlify.app/#locations",
+    path: "/#locations",
+    scrollId: "locations",
     newTab: false,
   },
   {
@@ -28,7 +30,8 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "Contact",
-    path: "https://burger-town.netlify.app/#contact",
+    path: "/#contact",
+    scrollId: "contact",
     newTab: false,
   },
 ];
