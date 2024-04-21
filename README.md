@@ -2,7 +2,7 @@
 
 # Burger Town
 
-- Take a look here :right_point: https://burger-town.netlify.app/
+- Take a look here :point_right: https://burger-town.netlify.app/
 
 Burger Town is a web application for ordering delicious burgers online. This project is built using React.js, Next.js, and Tailwind CSS.
 
